@@ -17,6 +17,8 @@ namespace Microsoft.Azure.WebJobs.Script
         public const string AzureFunctionsColdStartKey = "MS_AzureFunctionsColdStart";
         public const string AzureFunctionsHttpRequestKey = "MS_AzureFunctionsHttpRequest";
         public const string AzureProxyFunctionExecutorKey = "MS_AzureProxyFunctionExecutor";
+        public const string AzureProxyFunctionLocalRedirectHeader = "MS_AzureProxyFunctionLocalRedirectHeader";
+        public const int AzureProxyFunctionMaxLocalRedirects = 10;
 
         public const string TracePropertyPrimaryHostKey = "MS_PrimaryHost";
         public const string TracePropertyFunctionNameKey = "MS_FunctionName";
